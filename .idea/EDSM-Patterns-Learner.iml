@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="PatternLearner" />
+    <orderEntry type="module" module-name="UF_EDSM" />
+    <orderEntry type="module" module-name="EDSM-vs-Patterns-Learner" />
   </component>
 </module>
