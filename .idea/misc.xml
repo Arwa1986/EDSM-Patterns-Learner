@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (UF_EDSM)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (UF_EDSM)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (EDSM-vs-Patterns-Learner)" project-jdk-type="Python SDK" />
 </project>

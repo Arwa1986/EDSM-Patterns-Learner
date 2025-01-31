@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$USER_HOME$/PycharmProjects/EDSM-vs-Patterns-Learner" vcs="Git" />
+    <mapping directory="$USER_HOME$/Scarlet/Scarlet" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PatternLearner" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../UF_EDSM" vcs="Git" />
   </component>
