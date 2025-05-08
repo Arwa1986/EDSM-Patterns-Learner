@@ -8,5 +8,6 @@
     <orderEntry type="module" module-name="UF_EDSM" />
     <orderEntry type="module" module-name="EDSM-vs-Patterns-Learner" />
     <orderEntry type="module" module-name="Scarlet" />
+    <orderEntry type="module" module-name="Convert_dotFilestopdf" />
   </component>
 </module>
