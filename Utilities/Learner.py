@@ -287,7 +287,7 @@ class Learner:
 
     def pick_high_scour_pair(self, list_of_mergable_states):# list of disjoint_sets object
         # Sort the list of lists based on the merging_scour (3rd item)
-        list_of_mergable_states.sort(key=lambda x: x.merging_scour, reverse=True)
+        list_of_mergable_states.sort(key=lambda x: x.merging_score, reverse=True)
 
         # pick up the pair with the highest scour
         ds_with_highest_scour = list_of_mergable_states.pop(0)
@@ -351,6 +351,6 @@ class Learner:
         # check if the states have different labels (incorrect merge)
         # this only works with labeled APTA (APTA where states have the same label as the reference automata)
         if (apta.get_state_reference_label(ds.s1) != apta.get_state_reference_label(ds.s2)):
-            print(f'Incorrect merge:[{ds.s1}({apta.get_state_reference_label(ds.s1)}), {ds.s2}({apta.get_state_reference_label(ds.s2)}), {ds.merging_scour}]')
+            print(f'Incorrect merge:[{ds.s1}({apta.get_state_reference_label(ds.s1)}), {ds.s2}({apta.get_state_reference_label(ds.s2)}), {ds.merging_score}]')
         else:
-            print(f'Correct merge: [{ds.s1}({apta.get_state_reference_label(ds.s1)}), {ds.s2}({apta.get_state_reference_label(ds.s2)}), {ds.merging_scour}]')
+            print(f'Correct merge: [{ds.s1}({apta.get_state_reference_label(ds.s1)}), {ds.s2}({apta.get_state_reference_label(ds.s2)}), {ds.merging_score}]')
